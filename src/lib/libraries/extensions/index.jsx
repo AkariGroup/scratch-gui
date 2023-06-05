@@ -46,6 +46,11 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+import akariBlockImage from './akariBlocks/logo320.jpg';
+import akariBlockButtonImage from './akariBlocks/logo320_ex.jpg';
+import akariCameraImage from './akariCamera/logo320.jpg';
+import akariCameraButtonImage from './akariCamera/logo320_ex.jpg';
+
 export default [
     {
         name: (
@@ -317,5 +322,31 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
+    },
+    {
+        name: 'AkariBlocks',
+        extensionId: 'akariblocks',
+        collaborator: 'Me',
+        iconURL: akariBlockImage,
+        insetIconURL: akariBlockButtonImage,
+        description: 'AKARI control block',
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: true,
+        bluetoothRequired: false,
+        helpLink: 'https://scratch.mit.edu/wedo'
+    },
+    {
+        name: 'AkariCamera',
+        extensionId: 'akaricamera',
+        collaborator: 'Me',
+        iconURL: akariCameraImage,
+        insetIconURL: akariCameraButtonImage,
+        description: 'AKARI camera block',
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: true,
+        bluetoothRequired: false,
+        helpLink: 'https://scratch.mit.edu/wedo'
     }
 ];
