@@ -50,6 +50,8 @@ import akariBlockImage from './akariBlocks/logo320.jpg';
 import akariBlockButtonImage from './akariBlocks/logo320_ex.jpg';
 import akariCameraImage from './akariCamera/logo320.jpg';
 import akariCameraButtonImage from './akariCamera/logo320_ex.jpg';
+import akariNewBlockImage from './akariNewBlocks/logo320.jpg';
+import akariNewBlockButtonImage from './akariNewBlocks/logo320_ex.jpg';
 
 export default [
     {
@@ -343,6 +345,19 @@ export default [
         iconURL: akariCameraImage,
         insetIconURL: akariCameraButtonImage,
         description: 'AKARI camera block',
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: true,
+        bluetoothRequired: false,
+        helpLink: 'https://scratch.mit.edu/wedo'
+    },
+    {
+        name: 'AkariNewBlocks',
+        extensionId: 'akarinewblocks',
+        collaborator: 'Me',
+        iconURL: akariNewBlockImage,
+        insetIconURL: akariNewBlockButtonImage,
+        description: 'AKARI new control block',
         featured: true,
         disabled: false,
         internetConnectionRequired: true,
