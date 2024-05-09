@@ -328,7 +328,7 @@ export default [
         helpLink: 'https://scratch.mit.edu/vernier'
     },
     {
-        name: 'AkariBlocks',
+        name: 'AKARIBlocks',
         extensionId: 'akariblocks',
         collaborator: 'Me',
         iconURL: akariBlockImage,
@@ -341,7 +341,7 @@ export default [
         helpLink: 'https://scratch.mit.edu/wedo'
     },
     {
-        name: 'AkariCamera',
+        name: 'AKARICamera',
         extensionId: 'akaricamera',
         collaborator: 'Me',
         iconURL: akariCameraImage,
@@ -354,12 +354,12 @@ export default [
         helpLink: 'https://scratch.mit.edu/wedo'
     },
     {
-        name: 'AkariNewBlocks',
+        name: 'AKARIブロック',
         extensionId: 'akarinewblocks',
         collaborator: 'Me',
         iconURL: akariNewBlockImage,
         insetIconURL: akariNewBlockButtonImage,
-        description: 'AKARI new control block',
+        description: 'AKARIをコントロールする',
         featured: true,
         disabled: false,
         internetConnectionRequired: true,
@@ -367,12 +367,12 @@ export default [
         helpLink: 'https://scratch.mit.edu/wedo'
     },
     {
-        name: 'AkariNewCamera',
+        name: 'AKARIカメラ',
         extensionId: 'akarinewcamera',
         collaborator: 'Me',
         iconURL: akariNewCameraImage,
         insetIconURL: akariNewCameraButtonImage,
-        description: 'AKARI new camera block',
+        description: 'AKARIのカメラをつかう',
         featured: true,
         disabled: false,
         internetConnectionRequired: true,
