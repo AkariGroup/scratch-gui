@@ -50,6 +50,10 @@ import akariBlockImage from './akariBlocks/logo320.jpg';
 import akariBlockButtonImage from './akariBlocks/logo320_ex.jpg';
 import akariCameraImage from './akariCamera/logo320.jpg';
 import akariCameraButtonImage from './akariCamera/logo320_ex.jpg';
+import akariNewBlockImage from './akariNewBlocks/logo320.jpg';
+import akariNewBlockButtonImage from './akariNewBlocks/logo320_ex.jpg';
+import akariNewCameraImage from './akariNewCamera/logo320.jpg';
+import akariNewCameraButtonImage from './akariNewCamera/logo320_ex.jpg';
 
 export default [
     {
@@ -324,7 +328,7 @@ export default [
         helpLink: 'https://scratch.mit.edu/vernier'
     },
     {
-        name: 'AkariBlocks',
+        name: 'AKARIBlocks',
         extensionId: 'akariblocks',
         collaborator: 'Me',
         iconURL: akariBlockImage,
@@ -337,12 +341,38 @@ export default [
         helpLink: 'https://scratch.mit.edu/wedo'
     },
     {
-        name: 'AkariCamera',
+        name: 'AKARICamera',
         extensionId: 'akaricamera',
         collaborator: 'Me',
         iconURL: akariCameraImage,
         insetIconURL: akariCameraButtonImage,
         description: 'AKARI camera block',
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: true,
+        bluetoothRequired: false,
+        helpLink: 'https://scratch.mit.edu/wedo'
+    },
+    {
+        name: 'AKARIブロック',
+        extensionId: 'akarinewblocks',
+        collaborator: 'Me',
+        iconURL: akariNewBlockImage,
+        insetIconURL: akariNewBlockButtonImage,
+        description: 'AKARIをコントロールする',
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: true,
+        bluetoothRequired: false,
+        helpLink: 'https://scratch.mit.edu/wedo'
+    },
+    {
+        name: 'AKARIカメラ',
+        extensionId: 'akarinewcamera',
+        collaborator: 'Me',
+        iconURL: akariNewCameraImage,
+        insetIconURL: akariNewCameraButtonImage,
+        description: 'AKARIのカメラをつかう',
         featured: true,
         disabled: false,
         internetConnectionRequired: true,
