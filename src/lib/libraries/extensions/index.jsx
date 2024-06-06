@@ -50,17 +50,10 @@ import akariBlocksImage from './akariBlocks/logo320.jpg';
 import akariBlocksButtonImage from './akariBlocks/logo320_ex.jpg';
 import akariCameraImage from './akariCamera/logo320.jpg';
 import akariCameraButtonImage from './akariCamera/logo320_ex.jpg';
-<<<<<<< HEAD
 import akariBlocksSimpleImage from './akariBlocksSimple/logo320.jpg';
 import akariBlocksSimpleButtonImage from './akariBlocksSimple/logo320_ex.jpg';
 import akariCameraSimpleImage from './akariCameraSimple/logo320.jpg';
 import akariCameraSimpleButtonImage from './akariCameraSimple/logo320_ex.jpg';
-=======
-import akariNewBlockImage from './akariNewBlocks/logo320.jpg';
-import akariNewBlockButtonImage from './akariNewBlocks/logo320_ex.jpg';
-import akariNewCameraImage from './akariNewCamera/logo320.jpg';
-import akariNewCameraButtonImage from './akariNewCamera/logo320_ex.jpg';
->>>>>>> main
 
 export default [
     {
@@ -335,11 +328,7 @@ export default [
         helpLink: 'https://scratch.mit.edu/vernier'
     },
     {
-<<<<<<< HEAD
         name: 'AKARI Blocks',
-=======
-        name: 'AKARIBlocks',
->>>>>>> main
         extensionId: 'akariblocks',
         collaborator: 'Me',
         iconURL: akariBlocksImage,
@@ -352,11 +341,7 @@ export default [
         helpLink: 'https://scratch.mit.edu/wedo'
     },
     {
-<<<<<<< HEAD
         name: 'AKARI Camera',
-=======
-        name: 'AKARICamera',
->>>>>>> main
         extensionId: 'akaricamera',
         collaborator: 'Me',
         iconURL: akariCameraImage,
@@ -369,19 +354,11 @@ export default [
         helpLink: 'https://scratch.mit.edu/wedo'
     },
     {
-<<<<<<< HEAD
         name: 'AKARIブロック(簡易版)',
         extensionId: 'akariblockssimple',
         collaborator: 'Me',
         iconURL: akariBlocksSimpleImage,
         insetIconURL: akariBlocksSimpleButtonImage,
-=======
-        name: 'AKARIブロック',
-        extensionId: 'akarinewblocks',
-        collaborator: 'Me',
-        iconURL: akariNewBlockImage,
-        insetIconURL: akariNewBlockButtonImage,
->>>>>>> main
         description: 'AKARIをコントロールする',
         featured: true,
         disabled: false,
@@ -390,19 +367,11 @@ export default [
         helpLink: 'https://scratch.mit.edu/wedo'
     },
     {
-<<<<<<< HEAD
         name: 'AKARIカメラ(簡易版)',
         extensionId: 'akaricamerasimple',
         collaborator: 'Me',
         iconURL: akariCameraSimpleImage,
         insetIconURL: akariCameraSimpleButtonImage,
-=======
-        name: 'AKARIカメラ',
-        extensionId: 'akarinewcamera',
-        collaborator: 'Me',
-        iconURL: akariNewCameraImage,
-        insetIconURL: akariNewCameraButtonImage,
->>>>>>> main
         description: 'AKARIのカメラをつかう',
         featured: true,
         disabled: false,
