@@ -46,10 +46,14 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
-import akariBlockImage from './akariBlocks/logo320.jpg';
-import akariBlockButtonImage from './akariBlocks/logo320_ex.jpg';
+import akariBlocksImage from './akariBlocks/logo320.jpg';
+import akariBlocksButtonImage from './akariBlocks/logo320_ex.jpg';
 import akariCameraImage from './akariCamera/logo320.jpg';
 import akariCameraButtonImage from './akariCamera/logo320_ex.jpg';
+import akariBlocksSimpleImage from './akariBlocksSimple/logo320.jpg';
+import akariBlocksSimpleButtonImage from './akariBlocksSimple/logo320_ex.jpg';
+import akariCameraSimpleImage from './akariCameraSimple/logo320.jpg';
+import akariCameraSimpleButtonImage from './akariCameraSimple/logo320_ex.jpg';
 
 export default [
     {
@@ -324,11 +328,11 @@ export default [
         helpLink: 'https://scratch.mit.edu/vernier'
     },
     {
-        name: 'AkariBlocks',
+        name: 'AKARI Blocks',
         extensionId: 'akariblocks',
         collaborator: 'Me',
-        iconURL: akariBlockImage,
-        insetIconURL: akariBlockButtonImage,
+        iconURL: akariBlocksImage,
+        insetIconURL: akariBlocksButtonImage,
         description: 'AKARI control block',
         featured: true,
         disabled: false,
@@ -337,12 +341,38 @@ export default [
         helpLink: 'https://scratch.mit.edu/wedo'
     },
     {
-        name: 'AkariCamera',
+        name: 'AKARI Camera',
         extensionId: 'akaricamera',
         collaborator: 'Me',
         iconURL: akariCameraImage,
         insetIconURL: akariCameraButtonImage,
         description: 'AKARI camera block',
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: true,
+        bluetoothRequired: false,
+        helpLink: 'https://scratch.mit.edu/wedo'
+    },
+    {
+        name: 'AKARIブロック(簡易版)',
+        extensionId: 'akariblockssimple',
+        collaborator: 'Me',
+        iconURL: akariBlocksSimpleImage,
+        insetIconURL: akariBlocksSimpleButtonImage,
+        description: 'AKARIをコントロールする',
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: true,
+        bluetoothRequired: false,
+        helpLink: 'https://scratch.mit.edu/wedo'
+    },
+    {
+        name: 'AKARIカメラ(簡易版)',
+        extensionId: 'akaricamerasimple',
+        collaborator: 'Me',
+        iconURL: akariCameraSimpleImage,
+        insetIconURL: akariCameraSimpleButtonImage,
+        description: 'AKARIのカメラをつかう',
         featured: true,
         disabled: false,
         internetConnectionRequired: true,
